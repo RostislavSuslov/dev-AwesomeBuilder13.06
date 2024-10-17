@@ -1,0 +1,6 @@
+.floor-item {
+    @extend .build-item;
+}
+.floor-sold {
+    @extend .build-sold;
+}

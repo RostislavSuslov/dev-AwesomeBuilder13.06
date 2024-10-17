@@ -21,7 +21,7 @@
 
 ## Bывод svg sprite
 
-`<svg class="custom-class" width="14px" height="14px"><use xlink:href="img/sprite-svg.svg#img_name"></use></svg>`
+`<svg class="custom-class" width="14px" height="14px"><use build-item.html"img/sprite-svg.svg#img_name"></use></svg>`
 
 Или можете сделать include в верху сайта  ниже тега `Body`
 
@@ -29,7 +29,7 @@
 
 И выводить на странице таким образом:
 
-`<svg  width="28"  height="28"  class="custom_class"><use  xlink:href="#image_name"></use></svg>`
+`<svg  width="28"  height="28"  class="custom_class"><use  build-item.html"#image_name"></use></svg>`
 
 ## Bывод png sprite
 

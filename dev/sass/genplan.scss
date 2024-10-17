@@ -15,4 +15,15 @@
         fill: #05FFFF;
         stroke: #05FFFF;
     }
+
+    &.build-sold {
+        &:hover {
+            fill: #ff4c05;
+            stroke: #ff4c05;
+        }
+    
+    }
 }
+
+
+ 
